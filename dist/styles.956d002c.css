@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Inter-Light";
+  src: url("/Inter-Light.142aae07.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("/Inter-Medium.c48570a4.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("/Inter-Regular.7951e3c2.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("/Inter-Bold.3763be2e.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #1e202a;
+}
+
+h1 {
+  color: green;
+}
+
+
+/*# sourceMappingURL=/styles.956d002c.css.map */

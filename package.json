@@ -1,0 +1,24 @@
+{
+  "name": "social-media-dashboard-with-theme-switcher-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)",
+  "main": "main.js",
+  "dependencies": {
+    "sass": "^1.39.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lux-g/socialmedia-dashboard-frontendmentor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lux-g/socialmedia-dashboard-frontendmentor/issues"
+  },
+  "homepage": "https://github.com/lux-g/socialmedia-dashboard-frontendmentor#readme"
+}
