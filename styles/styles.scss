@@ -17,6 +17,12 @@
 
 //COLORS
 $dark-bg: hsl(230, 17%, 14%);
+$text-white: hsl(0, 0%, 100%);
+$text-gray-blue: hsl(228, 12%, 44%);
+$text-blue: hsl(228, 34%, 66%);
+$card-bg: hsl(228, 28%, 20%);
+$border-light-blue: hsl(208%, 92%, 53%);
+$lime-green: hsl(163, 72%, 41%);
 
 * {
     margin: 0;
@@ -26,6 +32,8 @@ $dark-bg: hsl(230, 17%, 14%);
 body {
     background-color: $dark-bg;
 }
-h1 {
-    color: green;
-}
+
+//IMPORTS
+@import './_nav';
+@import './_boxes';
+

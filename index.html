@@ -6,10 +6,59 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | [Challenge Name Here]</title>
   <link rel="stylesheet" href="./styles/styles.css">
+  <script src="https://kit.fontawesome.com/cf6ef74e1b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  
-  <h1>Test</h1>  
+  <div class="nav-container">
+    <nav class="nav">
+      <div class="nav__left-side">
+        <h1>Social Media Dashboard</h1>
+        <p>Total Followers: 23,004</p>
+      </div>
+      <div class="nav__right-side">
+        <p>Dark Mode</p>
+        <label class="toggle" for="myToggle">
+          <input class="toggle__input" type="checkbox" id="myToggle">
+          <div class="toggle__fill"></div>
+        </label>
+      </div>
+    </nav>
+  </div>
+
+  <div class="box-container">
+    <div class="box">
+      <div class="box__color-bar"></div>
+      <div class="box__social">
+        <i class="fab fa-facebook-square"></i>
+        <p>@nathanf</p>
+      </div>
+      <div class="box__count">
+        <h1>1987</h1>
+        <p>FOLLOWERS</p>
+      </div>
+      <div class="box__updated-count">
+        <i class="fas fa-angle-up"></i>
+        <p>12 Today</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="box__color-bar"></div>
+      <div class="box__social">
+        <i class="fab fa-twitter"></i>
+        <p>@nathanf</p>
+      </div>
+      <div class="box__count">
+        <h1>1987</h1>
+        <p>FOLLOWERS</p>
+      </div>
+      <div class="box__updated-count">
+        <i class="fas fa-angle-up"></i>
+        <p>12 Today</p>
+      </div>
+    </div>
+  </div>
+
+
 
   <script src="main.js"></script>
 </body>
